@@ -25,6 +25,7 @@ SCOMPOSIZIONE IN SOTTOPROBLEMI
     >>Creo una funzione per generare la griglia di gioco
         >>>Utilizzo un ciclo per creare 100 elementi
         >>>Appendo gli elementi creati al contenitore recuperato in precedenza
+> Chiamo la funzione con un eventListener al click del pulsante start
     >>Aggiungo un eventListener click ad ogni elemento
         >>>Aggiungo una classe per cambiare colore a gli elementi cliccati
         >>>Agguingo la stampa del numero della casella al click della stessa
