@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+header{
+    height: 75px;
+    background-color: rebeccapurple;
+}
 
 .logo-boolean{
     max-width: 75px;
