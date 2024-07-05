@@ -17,7 +17,7 @@ header{
 }
 
 main{
-    background-color: #001532;
+    background-color: #fff;
     padding-top: 90px;
     padding-bottom: 50px;
 }
@@ -39,15 +39,21 @@ main{
     align-items: center;
     width: calc(100% / 10);
     height: calc(100% / 10);
-    border: 3px solid #001532;
-    background-color: #fff;
+    border: 3px solid #fff;
+    background-color: #000;
     transition: all 0.25s;
+    color: #fff;
+}
+
+.clicked{
+    background-color: lightblue;
+    color: #000;
 }
 
 .square:hover{
-    border: 1px solid #001532;
+    border: 1px solid #fff;
 }
 
 .square:active{
-    border: 5px solid #001532;
+    border: 5px solid #fff;
 }

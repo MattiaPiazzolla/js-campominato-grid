@@ -20,7 +20,8 @@ playBtn.addEventListener('click', function(){
         currentSquare = createGridElement();
         // AGGIUNGO UN eventListener PER OGNI DELEMENTO DELLA GRIGLIA
         currentSquare.addEventListener('click', function(){
-            
+            // AGGIUNGO UNA CLASSE CON LA FUNZIONE TOGGLE PER ACCENDERE E SPEGNERE AD OGNI CLICK
+            this.classList.toggle('clicked');
         })
         // AGGIUNGO IL NUMERO ALL'INTERNO DEGLI ELEMENTI
         currentSquare.innerText = i + 1;
