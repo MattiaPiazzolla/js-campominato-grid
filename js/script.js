@@ -12,10 +12,15 @@ function createGridElement() {
 }
 // DEFINISCO LA DESTINAZIONE DEGLI ELEMENTI CREATI
 const gridDestination = document.getElementById('gridContainer');
-// ESEGUO UN CICLO DI 100 ITERAZIONI PER CREARE UNA GRIGLIA 
-for(let i = 0 ; i < 100; i++){
-    // CREO IL SINGOLO ELEMENTO CHIAMANDO LA FUNZIONE 
-    currentSquare = createGridElement();
-    // AGGIUNGO IL NUMERO ALL'INTERNO DEGLI ELEMENTI
-    currentSquare.innerText = i + 1;
-}
+// DEFINISCO L'EVENTO CLICK DEL PULSANTE playBtn
+playBtn.addEventListener('click', function(){
+    // ESEGUO UN CICLO DI 100 ITERAZIONI PER CREARE UNA GRIGLIA 
+    for(let i = 0 ; i < 100; i++){
+        // CREO IL SINGOLO ELEMENTO CHIAMANDO LA FUNZIONE 
+        currentSquare = createGridElement();
+        // AGGIUNGO IL NUMERO ALL'INTERNO DEGLI ELEMENTI
+        currentSquare.innerText = i + 1;
+        // APPENDO L'ELEMENTO CREATO ALL'INTERNO DI gridDestination
+        gridDestination.append(currentSquare)
+    }
+})
