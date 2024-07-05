@@ -16,4 +16,6 @@ const gridDestination = document.getElementById('gridContainer');
 for(let i = 0 ; i < 100; i++){
     // CREO IL SINGOLO ELEMENTO CHIAMANDO LA FUNZIONE 
     currentSquare = createGridElement();
+    // AGGIUNGO IL NUMERO ALL'INTERNO DEGLI ELEMENTI
+    currentSquare.innerText = i + 1;
 }
