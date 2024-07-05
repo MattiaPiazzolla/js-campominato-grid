@@ -18,3 +18,13 @@ Ad esempio:
 Di cosa ho bisogno per generare i numeri?
 Proviamo sempre prima con dei console.log() per capire se stiamo ricevendo i dati giusti.
 Le validazioni e i controlli possiamo farli anche in un secondo momento.
+
+SCOMPOSIZIONE IN SOTTOPROBLEMI
+>Recupero il bottone per generare la griglia di gioco
+> Definisco il contenitore della griglia nel DOM dove andrò ad inserire degli elementi
+    >>Creo una funzione per generare la griglia di gioco
+        >>>Utilizzo un ciclo per creare 100 elementi
+        >>>Appendo gli elementi creati al contenitore recuperato in precedenza
+    >>Aggiungo un eventListener click ad ogni elemento
+        >>>Aggiungo una classe per cambiare colore a gli elementi cliccati
+        >>>Agguingo la stampa del numero della casella al click della stessa
