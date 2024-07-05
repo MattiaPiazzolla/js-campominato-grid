@@ -6,5 +6,6 @@ const gridContainer = document.getElementById('gridContainer');
 function createGridElements(){
     // DEFINISCO CHE TIPO DI ELEMENTO CREARE
     let currentElement = document.createElement('div');
-
+    // AGGIUNGO UNA CLASSE AGLI ELEMENTI CREATI, PER DEFINIRE IL LORO STILE
+    currentElement.classList.add('square');
 }
