@@ -4,5 +4,7 @@ const playBtn = document.getElementById('playBtn');
 const gridContainer = document.getElementById('gridContainer');
 // DEFINISCO LA FUNZIONE PER LA CREAZIONE DEGLI ELEMENTI DELLA GRIGLIA
 function createGridElements(){
-    
+    // DEFINISCO CHE TIPO DI ELEMENTO CREARE
+    let currentElement = document.createElement('div');
+
 }
