@@ -12,3 +12,7 @@ function createGridElement() {
 }
 // DEFINISCO LA DESTINAZIONE DEGLI ELEMENTI CREATI
 const gridDestination = document.getElementById('gridContainer');
+// ESEGUO UN CICLO DI 100 ITERAZIONI PER CREARE UNA GRIGLIA 
+for(let i = 0 ; i < 100; i++){
+    
+}
