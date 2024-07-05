@@ -14,5 +14,6 @@ function createGridElement() {
 const gridDestination = document.getElementById('gridContainer');
 // ESEGUO UN CICLO DI 100 ITERAZIONI PER CREARE UNA GRIGLIA 
 for(let i = 0 ; i < 100; i++){
-    
+    // CREO IL SINGOLO ELEMENTO CHIAMANDO LA FUNZIONE 
+    currentSquare = createGridElement();
 }
