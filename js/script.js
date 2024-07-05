@@ -18,6 +18,10 @@ playBtn.addEventListener('click', function(){
     for(let i = 0 ; i < 100; i++){
         // CREO IL SINGOLO ELEMENTO CHIAMANDO LA FUNZIONE 
         currentSquare = createGridElement();
+        // AGGIUNGO UN eventListener PER OGNI DELEMENTO DELLA GRIGLIA
+        currentSquare.addEventListener('click', function(){
+            
+        })
         // AGGIUNGO IL NUMERO ALL'INTERNO DEGLI ELEMENTI
         currentSquare.innerText = i + 1;
         // APPENDO L'ELEMENTO CREATO ALL'INTERNO DI gridDestination
