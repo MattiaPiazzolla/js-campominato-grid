@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 75px;
+    background-color: #fff;
+    position: fixed;
+    width: 100vw;
+}
+
+.logo-boolean{
+    max-width: 75px;
+    min-width: 50px;
+}
+
+main{
+    background-color: #fff;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.containerGrid{
+    width: 75vw;
+    min-height: 100vh;
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+}
+
+.square{
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 3px solid #fff;
+    background-color: #000;
+    transition: all 0.25s;
+    color: #fff;
+}
+
+.clicked{
+    background-color: lightblue;
+    color: #000;
+}
+
+.square:hover{
+    border: 1px solid #fff;
+}
+
+.square:active{
+    border: 5px solid #fff;
+}
