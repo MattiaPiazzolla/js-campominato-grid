@@ -1,8 +1,8 @@
 // RECUPERO IL PULSANTE PER INIZIARE/RESETTARE IL GIOCO
 const playBtn = document.getElementById('playBtn');
-// DEFINISCO LA FUNZIONE PER LA CREAZIONE DELL'ELEMENTO DELLA GRIGLIA
 // RECUPERO DIFFICOLTÀ
 let difficulty = document.getElementById('difficultyLevel').value;
+// DEFINISCO LA FUNZIONE PER LA CREAZIONE DELL'ELEMENTO DELLA GRIGLIA
 function createGridElement() {
     // DEFINISCO CHE TIPO DI ELEMENTO CREARE
     let currentElement = document.createElement('div');
